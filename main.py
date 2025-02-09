@@ -1,10 +1,8 @@
 import sys
-from urllib.error import HTTPError
 
 import requests
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout
 from PyQt5.QtCore import Qt
-from requests import RequestException
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout
 
 
 class WeatherApp(QWidget):
